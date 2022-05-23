@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0" rowspan="12">
+     <widget class="QListWidget" name="listWidget"/>
+    </item>
+    <item row="0" column="1" colspan="2">
+     <widget class="QComboBox" name="comboBox"/>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QTextEdit" name="textEdit_2"/>
+    </item>
+    <item row="2" column="1" colspan="2">
+     <widget class="QTextEdit" name="textEdit_3"/>
+    </item>
+    <item row="3" column="1" colspan="2">
+     <widget class="QTextEdit" name="textEdit_4"/>
+    </item>
+    <item row="4" column="1" colspan="2">
+     <widget class="QTextEdit" name="textEdit_5"/>
+    </item>
+    <item row="5" column="1" colspan="2">
+     <widget class="QTextEdit" name="textEdit_6"/>
+    </item>
+    <item row="6" column="1" colspan="2">
+     <widget class="QTextEdit" name="textEdit_7"/>
+    </item>
+    <item row="7" column="1" colspan="2">
+     <widget class="QTextEdit" name="textEdit_8"/>
+    </item>
+    <item row="8" column="1" colspan="2">
+     <widget class="QTextEdit" name="textEdit_9"/>
+    </item>
+    <item row="9" column="1" colspan="2">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="text">
+       <string>Изменить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1" colspan="2">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="text">
+       <string>Удалить</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0" rowspan="2">
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>информация о рейсе</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="2" rowspan="2">
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+    <item row="14" column="0">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="text">
+       <string>документ расписание</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="2">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>список рейсов в город</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1" rowspan="2" colspan="2">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="text">
+       <string>Добавить</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>меню</string>
+    </property>
+    <addaction name="action_2"/>
+    <addaction name="action"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>сохранить</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="text">
+    <string>открыть</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
